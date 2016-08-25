@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 from .parsers import parse_day_data, parse_dataframe
 
