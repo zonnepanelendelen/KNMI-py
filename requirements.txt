@@ -1,3 +1,2 @@
-requests==2.11.1
-Cython==0.24.1
---editable git+git://github.com/pydata/pandas.git@v0.18.1#egg=pandas
+requests
+pandas
