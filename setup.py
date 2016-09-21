@@ -73,11 +73,7 @@ setup(
 
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed.
-
-    # XXX: this library also requires pandas, but we'll install it in a 'parent'
-    # repo with -e opion, so C files will be compiled for pandas. See:
-    # see: https://github.com/pydata/pandas/issues/14257
-    install_requires=['requests==2.11.1'],
+    install_requires=['requests==2.11.1', 'pandas==0.18.1', ],
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
